@@ -1,0 +1,20 @@
+{
+  "name": "circulatejs-site",
+  "version": "1.0.0",
+  "description": "CirculateJS Site",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/circulatejs/circulatejs-site.git"
+  },
+  "author": "The CirculateJS Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/circulatejs/circulatejs-site/issues"
+  },
+  "homepage": "https://github.com/circulatejs/circulatejs-site"
+}
