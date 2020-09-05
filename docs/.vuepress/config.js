@@ -1,6 +1,6 @@
 module.exports = {
     title: 'CirculateJS',
-    description: `The "some batteries included" framework for building quick API's`,
+    description: `The application scaffolding framework for creating amazing things`,
     themeConfig: {
         logo: 'circulatejs-logo.svg',
         nav: [
@@ -11,6 +11,14 @@ module.exports = {
             {
                 text: 'Guide',
                 link: '/guide'
+            },
+            {
+                text: 'Environment Reference',
+                link: '/env-reference'
+            },
+            {
+                text: 'Plugins',
+                link: '/plugins'
             },
             {
                 text: 'Github',
