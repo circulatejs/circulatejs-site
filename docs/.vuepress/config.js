@@ -5,20 +5,20 @@ module.exports = {
         logo: 'circulatejs-logo.svg',
         nav: [
             {
-                text: 'Learn More',
-                link: '/learn-more'
-            },
-            {
                 text: 'Guide',
                 link: '/guide'
             },
             {
-                text: 'Environment Reference',
+                text: 'Env',
                 link: '/env-reference'
             },
             {
                 text: 'Plugins',
                 link: '/plugins'
+            },
+            {
+                text: 'UI',
+                link: '/ui'
             },
             {
                 text: 'Github',
