@@ -32,11 +32,11 @@ Once this is complete, it will install all the dependencies for the project.
 You will then be able to start your project with the following command, depending on your package manager of choice:
 
 ```sh
-yarn start --no-admin
+yarn start
 
 # Or
 
-npm start --no-admin
+npm start
 ```
 
 When you start up the server for the first time, you will be required to input a username and password for the first user. From there, the server will start
@@ -47,11 +47,11 @@ and you'll be able to log into the admin with the credentials you created.
 It's also possible to startup the application without generating the admin at all. To do this, run the start command with the following switch:
 
 ```sh
-yarn start
+yarn start --no-admin
 
 # Or
 
-npm start
+npm start --no-admin
 ```
 
 There might be a couple of reasons why you don't want this. One reason is that you might not even need the admin for the application, like if you are running your own admin, or have a different way of interacting with the database. Another reason might be, maybe you don't want to generate the admin on everything single start, especially if you need the application to start up faster (the admin remains cached when generated).
